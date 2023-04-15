@@ -37,7 +37,7 @@ function App() {
         <Row>
           {works.map((item, index) => {
             return (
-              <Col sm={12} md={4} lg={4} xl={4} xxl={3} className="border">
+              <Col sm={12} md={6} lg={4} xl={4} xxl={3} className="border">
                 <Image
                   src={item[1]}
                   alt={item[0]}
