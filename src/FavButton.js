@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 
 const Count = () => {
   const [count, setCount] = useState(0);
@@ -10,8 +12,10 @@ const Count = () => {
   return (
     <div>
       <div>
-        <button onClick={() => handleCount(+1)}>+</button>
-        <p>{count}</p>
+        <Button variant="outline-info" onClick={() => handleCount(+1)}>
+          <FavoriteIcon></FavoriteIcon>
+          {count}
+        </Button>
       </div>
     </div>
   );
