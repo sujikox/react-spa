@@ -2,9 +2,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Button from "react-bootstrap/Button";
 import logo from "./logo.svg";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 import "./App.css";
-
+import FavButton from "./Button";
 
 function App() {
   const works = [
@@ -37,6 +39,10 @@ function App() {
                 <h3>{item[0]}</h3>
                 {item[1]}
                 <p>{item[2]}</p>
+                <Button variant="outline-info">
+                  <FavoriteIcon></FavoriteIcon>いいね！
+                  <FavButton />
+                </Button>
               </Col>
             );
           })}
