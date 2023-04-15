@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import logo from "./logo.svg";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import "./App.css";
-import FavButton from "./Button";
+import FavButton from "./FavButton";
 
 function App() {
   const works = [
