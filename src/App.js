@@ -9,8 +9,12 @@ import FavButton from "./FavButton";
 function App() {
   const works = [
     ["DisAGreE", "images/DisAGreE_Logo_White.jpg", "あいうえお"],
-    //["作品２", "img2", "かきくけこ"],
-    //["作品3", "img3", "さしすせお"],
+    ["pika_is_chu", "images/pika_is_chu_image1.png", "かきくけこ"],
+    ["PLANETES", "images/planetes.jpg", "さしすせお"],
+    ["MARU CHICHI", "images/MARU-CHICHI.jpg", "さしすせお"],
+    ["GALS MIND", "images/GALS-MIND.png", "さしすせお"],
+    ["威吹リュウ", "images/iubki.png", "さしすせお"],
+    ["イバラ・デビルローズ_", "images/ibara.jpg", "さしすせお"],
   ];
 
   return (
